@@ -17,3 +17,7 @@ BATTERY_CAPACITY_KWH = 75.0  # Battery capacity in kWh
 DEFAULT_SCHEDULE_START = time(2, 0)  # Default schedule start (2:00 AM)
 DEFAULT_SCHEDULE_END = time(5, 0)  # Default schedule end (5:00 AM)
 DEFAULT_SCHEDULE_ENABLED = True  # Whether schedule is enabled by default
+
+# Chart Settings
+PERIOD_MINUTES = 30  # Time period for charge forecasting
+FORECAST_PERIODS = 9  # Number of periods to forecast
