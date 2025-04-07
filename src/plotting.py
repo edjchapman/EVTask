@@ -4,7 +4,7 @@ import pandas as pd
 import plotly.express as px
 from plotly.graph_objs import Figure
 
-from models import CombinedState
+from src.domain.models import CombinedState
 from utils import get_current_time_to_nearest_30_minutes
 
 # These set the resampling period for graphing

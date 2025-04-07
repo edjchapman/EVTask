@@ -3,7 +3,7 @@
 
 import streamlit as st
 
-from models import ChargerState, DemoAdminState, CombinedState
+from src.domain.models import ChargerState, DemoAdminState, CombinedState
 
 
 def get_future_states() -> list[CombinedState]:

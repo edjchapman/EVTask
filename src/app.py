@@ -1,7 +1,7 @@
 import streamlit as st
 
 import backend
-from models import DemoAdminState
+from src.domain.models import DemoAdminState
 from plotting import plot_upcoming_charges
 from utils import get_current_time_to_nearest_30_minutes
 
