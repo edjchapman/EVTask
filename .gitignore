@@ -1,1 +1,12 @@
+# Python
 __pycache__
+.venv
+
+# MacOS
+.DS_Store
+
+# IDE
+.idea
+
+# Tests
+.coverage
